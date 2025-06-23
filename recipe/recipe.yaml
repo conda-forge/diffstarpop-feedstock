@@ -1,6 +1,6 @@
 context:
   name: diffstarpop
-  version: 0.0.1
+  version: "0.0.2"
   python_min: "3.11"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/diffstarpop-${{ version }}.tar.gz
-  sha256: c6fb00a8d77f18c332a546a43a1cd639287bdb2a9ec5e0243a4976b3de3d4603
+  sha256: 7cafeacf7cda3202c616c9bc625e678ac94ad784f25863d289abea2c8ebedfa2
 
 build:
   number: 0
